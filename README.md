@@ -7,7 +7,7 @@ This repository contains a research prototype for diagnosing and improving adver
 - PCSD, a profile-conditioned spectral denoiser built around FiLM-style conditioning;
 - RobuScan, a Gradio interface that scans a CIFAR-10 ResNet18 checkpoint and returns a spectral robustness report;
 - saved JSON summaries and figures for the completed experimental runs;
-- a final DIP report in `reports/dip_combined_report.pdf`.
+- a final report in `reports/dip_combined_report.pdf`.
 
 ## Repository Status
 
@@ -99,7 +99,7 @@ The final report frames PCSD+DualDGSC against the standard blind DnCNN pixel-los
 - Some scripts are tied to local/Lightning paths through `caat/config.py`.
 - Large datasets and weights are not included in Git and must be downloaded or generated.
 - Result files mix an earlier PRI/VCI line of work with a later GSE/MeanLip line; the final report separates them.
-- The generated IEEE paper artifact currently appears unrelated to this spectral robustness project; use `reports/dip_combined_report.pdf` instead.
+- use `reports/dip_combined_report.pdf` for any furthur clarifications.
 
 ## Author
 
