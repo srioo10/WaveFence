@@ -11,35 +11,21 @@ This repository contains a research prototype for diagnosing and improving adver
 
 ## Repository Status
 
-This is worth uploading to GitHub as a research/prototype repository. The idea is interesting, the code is modular enough to explain the work, and the saved result JSONs make the project inspectable without forcing people to rerun every experiment.
+This project was originally developed and executed within the Lightning AI environment. As a result, certain implementation patterns, execution flow, and syntax conventions may differ from standard standalone Python projects or local development setups.
 
-Before making it a polished public release, the main improvement would be to remove hardcoded local paths in `caat/config.py`. It currently points at `/teamspace/studios/this_studio`, which is fine for the original run environment but not portable for every user.
+Some configuration files and runtime assumptions were designed specifically around the original Lightning AI workspace structure.
 
-## What To Upload
+Before running locally, users may need to:
 
-Upload these:
+Update hardcoded paths in caat/config.py
+Modify environment-specific directory references
+Adjust dataset/model paths for their local system
 
-- `caat/` - model definitions, spectral metrics, attacks, training, and evaluation.
-- `pcsd/` - PCSD and DnCNN denoiser code.
-- `robuscan/` - scanner backend and Gradio app.
-- `experiments/` - reproducible experiment scripts.
-- `results/evaluation/*.json` - lightweight saved metrics and tables.
-- `figures/` - final plots used to explain the work.
-- `reports/dip_combined_report.pdf` - final submitted project report.
-- `reports/dip_combined_report.docx` - editable report source, optional but useful.
-- `spectral_vulnerability_map.py` - standalone spectral vulnerability script.
-- `implementation_plan.md` - original project blueprint.
-- `README.md`, `requirements.txt`, `.gitignore`, and `FINAL_REPORT.md`.
+In particular, the current configuration references:
 
-Do not upload these:
+/teamspace/studios/this_studio
 
-- `.venv/`, `.codex/`, `.gradio/`, `.qodo/`, `.vscode/`
-- `data/`, `imagenette2-320/`, `project_data/`
-- `checkpoints/` and all `*.pth` model weights
-- `artifacts/paper_ieee/`
-- `__pycache__/` folders
-
-The folder `artifacts/paper_ieee` appears to contain a generated paper about a different JTrans/Mamba binary-code project, so it should not be used as this repository's final report unless you intentionally want to keep unrelated artifacts. The correct final report is in `reports/`.
+which is specific to the original Lightning AI runtime environment and should be replaced with appropriate local paths.
 
 ## Project Layout
 
