@@ -103,4 +103,4 @@ The final report frames PCSD+DualDGSC against the standard blind DnCNN pixel-los
 
 ## Author
 
-Sooraj S, IIITDM Kancheepuram
+Sooraj S
