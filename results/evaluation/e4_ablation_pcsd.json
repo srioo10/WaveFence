@@ -1,0 +1,352 @@
+[
+  {
+    "variant": "PCSD_static_pixel",
+    "label": "PCSD + Static Profile + Pixel Loss",
+    "arch": "pcsd",
+    "dynamic": false,
+    "lambda_cls": 0.0,
+    "best_recovery": 12.740000000000002,
+    "epochs": [
+      {
+        "epoch": 1,
+        "adv_acc": 48.51,
+        "den_acc": 49.32,
+        "recovery": 0.8100000000000023
+      },
+      {
+        "epoch": 2,
+        "adv_acc": 48.61,
+        "den_acc": 51.91,
+        "recovery": 3.299999999999997
+      },
+      {
+        "epoch": 3,
+        "adv_acc": 48.5,
+        "den_acc": 54.33,
+        "recovery": 5.829999999999998
+      },
+      {
+        "epoch": 4,
+        "adv_acc": 48.56,
+        "den_acc": 55.91,
+        "recovery": 7.349999999999994
+      },
+      {
+        "epoch": 5,
+        "adv_acc": 48.55,
+        "den_acc": 58.24,
+        "recovery": 9.690000000000005
+      },
+      {
+        "epoch": 6,
+        "adv_acc": 48.58,
+        "den_acc": 59.45,
+        "recovery": 10.870000000000005
+      },
+      {
+        "epoch": 7,
+        "adv_acc": 48.58,
+        "den_acc": 59.8,
+        "recovery": 11.219999999999999
+      },
+      {
+        "epoch": 8,
+        "adv_acc": 48.52,
+        "den_acc": 60.82,
+        "recovery": 12.299999999999997
+      },
+      {
+        "epoch": 9,
+        "adv_acc": 48.6,
+        "den_acc": 60.88,
+        "recovery": 12.280000000000001
+      },
+      {
+        "epoch": 10,
+        "adv_acc": 48.53,
+        "den_acc": 61.27,
+        "recovery": 12.740000000000002
+      }
+    ]
+  },
+  {
+    "variant": "PCSD_static_cls",
+    "label": "PCSD + Static Profile + Cls Loss",
+    "arch": "pcsd",
+    "dynamic": false,
+    "lambda_cls": 0.5,
+    "best_recovery": 29.250000000000007,
+    "epochs": [
+      {
+        "epoch": 1,
+        "adv_acc": 48.56,
+        "den_acc": 49.18,
+        "recovery": 0.6199999999999974
+      },
+      {
+        "epoch": 2,
+        "adv_acc": 48.5,
+        "den_acc": 55.13,
+        "recovery": 6.630000000000003
+      },
+      {
+        "epoch": 3,
+        "adv_acc": 48.62,
+        "den_acc": 61.67,
+        "recovery": 13.050000000000004
+      },
+      {
+        "epoch": 4,
+        "adv_acc": 48.55,
+        "den_acc": 63.97,
+        "recovery": 15.420000000000002
+      },
+      {
+        "epoch": 5,
+        "adv_acc": 48.54,
+        "den_acc": 68.4,
+        "recovery": 19.860000000000007
+      },
+      {
+        "epoch": 6,
+        "adv_acc": 48.62,
+        "den_acc": 74.2,
+        "recovery": 25.580000000000005
+      },
+      {
+        "epoch": 7,
+        "adv_acc": 48.61,
+        "den_acc": 76.41,
+        "recovery": 27.799999999999997
+      },
+      {
+        "epoch": 8,
+        "adv_acc": 48.54,
+        "den_acc": 75.24,
+        "recovery": 26.699999999999996
+      },
+      {
+        "epoch": 9,
+        "adv_acc": 48.6,
+        "den_acc": 77.28,
+        "recovery": 28.68
+      },
+      {
+        "epoch": 10,
+        "adv_acc": 48.54,
+        "den_acc": 77.79,
+        "recovery": 29.250000000000007
+      }
+    ]
+  },
+  {
+    "variant": "PCSD_dgsc_pixel",
+    "label": "PCSD + DGSC + Pixel Loss",
+    "arch": "pcsd",
+    "dynamic": true,
+    "lambda_cls": 0.0,
+    "best_recovery": 12.690000000000005,
+    "epochs": [
+      {
+        "epoch": 1,
+        "adv_acc": 48.52,
+        "den_acc": 49.35,
+        "recovery": 0.8299999999999983
+      },
+      {
+        "epoch": 2,
+        "adv_acc": 48.48,
+        "den_acc": 51.61,
+        "recovery": 3.1300000000000026
+      },
+      {
+        "epoch": 3,
+        "adv_acc": 48.61,
+        "den_acc": 55.59,
+        "recovery": 6.980000000000004
+      },
+      {
+        "epoch": 4,
+        "adv_acc": 48.49,
+        "den_acc": 57.29,
+        "recovery": 8.799999999999997
+      },
+      {
+        "epoch": 5,
+        "adv_acc": 48.59,
+        "den_acc": 58.57,
+        "recovery": 9.979999999999997
+      },
+      {
+        "epoch": 6,
+        "adv_acc": 48.59,
+        "den_acc": 59.54,
+        "recovery": 10.949999999999996
+      },
+      {
+        "epoch": 7,
+        "adv_acc": 48.53,
+        "den_acc": 60.16,
+        "recovery": 11.629999999999995
+      },
+      {
+        "epoch": 8,
+        "adv_acc": 48.56,
+        "den_acc": 60.86,
+        "recovery": 12.299999999999997
+      },
+      {
+        "epoch": 9,
+        "adv_acc": 48.5,
+        "den_acc": 61.12,
+        "recovery": 12.619999999999997
+      },
+      {
+        "epoch": 10,
+        "adv_acc": 48.58,
+        "den_acc": 61.27,
+        "recovery": 12.690000000000005
+      }
+    ]
+  },
+  {
+    "variant": "PCSD_dgsc_cls",
+    "label": "PCSD + DGSC + Cls Loss  \u2190 OURS (full)",
+    "arch": "pcsd",
+    "dynamic": true,
+    "lambda_cls": 0.5,
+    "best_recovery": 30.24000000000001,
+    "epochs": [
+      {
+        "epoch": 1,
+        "adv_acc": 48.6,
+        "den_acc": 49.24,
+        "recovery": 0.6400000000000006
+      },
+      {
+        "epoch": 2,
+        "adv_acc": 48.58,
+        "den_acc": 57.93,
+        "recovery": 9.350000000000001
+      },
+      {
+        "epoch": 3,
+        "adv_acc": 48.58,
+        "den_acc": 62.67,
+        "recovery": 14.090000000000003
+      },
+      {
+        "epoch": 4,
+        "adv_acc": 48.59,
+        "den_acc": 65.35,
+        "recovery": 16.75999999999999
+      },
+      {
+        "epoch": 5,
+        "adv_acc": 48.59,
+        "den_acc": 72.65,
+        "recovery": 24.060000000000002
+      },
+      {
+        "epoch": 6,
+        "adv_acc": 48.58,
+        "den_acc": 73.86,
+        "recovery": 25.28
+      },
+      {
+        "epoch": 7,
+        "adv_acc": 48.53,
+        "den_acc": 75.96,
+        "recovery": 27.429999999999993
+      },
+      {
+        "epoch": 8,
+        "adv_acc": 48.52,
+        "den_acc": 77.11,
+        "recovery": 28.589999999999996
+      },
+      {
+        "epoch": 9,
+        "adv_acc": 48.55,
+        "den_acc": 78.49,
+        "recovery": 29.939999999999998
+      },
+      {
+        "epoch": 10,
+        "adv_acc": 48.55,
+        "den_acc": 78.79,
+        "recovery": 30.24000000000001
+      }
+    ]
+  },
+  {
+    "variant": "DnCNN_cls",
+    "label": "DnCNN + Cls Loss  (fair baseline)",
+    "arch": "dncnn",
+    "dynamic": false,
+    "lambda_cls": 0.5,
+    "best_recovery": 30.680000000000007,
+    "epochs": [
+      {
+        "epoch": 1,
+        "adv_acc": 48.55,
+        "den_acc": 48.7,
+        "recovery": 0.15000000000000568
+      },
+      {
+        "epoch": 2,
+        "adv_acc": 48.64,
+        "den_acc": 48.89,
+        "recovery": 0.25
+      },
+      {
+        "epoch": 3,
+        "adv_acc": 48.58,
+        "den_acc": 51.37,
+        "recovery": 2.789999999999999
+      },
+      {
+        "epoch": 4,
+        "adv_acc": 48.57,
+        "den_acc": 64.4,
+        "recovery": 15.830000000000005
+      },
+      {
+        "epoch": 5,
+        "adv_acc": 48.56,
+        "den_acc": 71.45,
+        "recovery": 22.89
+      },
+      {
+        "epoch": 6,
+        "adv_acc": 48.6,
+        "den_acc": 74.77,
+        "recovery": 26.169999999999995
+      },
+      {
+        "epoch": 7,
+        "adv_acc": 48.52,
+        "den_acc": 77.18,
+        "recovery": 28.660000000000004
+      },
+      {
+        "epoch": 8,
+        "adv_acc": 48.58,
+        "den_acc": 78.24,
+        "recovery": 29.659999999999997
+      },
+      {
+        "epoch": 9,
+        "adv_acc": 48.61,
+        "den_acc": 79.29,
+        "recovery": 30.680000000000007
+      },
+      {
+        "epoch": 10,
+        "adv_acc": 48.6,
+        "den_acc": 79.0,
+        "recovery": 30.4
+      }
+    ]
+  }
+]

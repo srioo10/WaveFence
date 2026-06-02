@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ResNet18 classifier (no defense)",
+    "ms_per_image": 0.03162100281251412,
+    "fps": 31624.550490354675
+  },
+  {
+    "name": "DnCNN + classifier (blind denoiser)",
+    "ms_per_image": 0.045674833750055654,
+    "fps": 21893.894687657874
+  },
+  {
+    "name": "PCSD + static profile + classifier",
+    "ms_per_image": 0.08911287437499027,
+    "fps": 11221.723090111122
+  },
+  {
+    "name": "PCSD + DGSC + classifier (ours)",
+    "ms_per_image": 0.21470722250001018,
+    "fps": 4657.505175448639
+  }
+]

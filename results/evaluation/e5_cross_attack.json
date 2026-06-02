@@ -1,0 +1,26 @@
+{
+  "PGD-Linf (known)": {
+    "adv_acc": 49.140625,
+    "dncnn_acc": 85.703125,
+    "pcsd_acc": 83.359375,
+    "delta": -2.34375
+  },
+  "FGSM (simpler)": {
+    "adv_acc": 53.046875,
+    "dncnn_acc": 85.078125,
+    "pcsd_acc": 80.703125,
+    "delta": -4.375
+  },
+  "PGD-L2 (unseen)": {
+    "adv_acc": 71.171875,
+    "dncnn_acc": 71.796875,
+    "pcsd_acc": 63.28125,
+    "delta": -8.515625
+  },
+  "Random Noise": {
+    "adv_acc": 77.03125,
+    "dncnn_acc": 77.734375,
+    "pcsd_acc": 66.015625,
+    "delta": -11.71875
+  }
+}

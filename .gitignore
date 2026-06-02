@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local IDE/app state
+.venv/
+venv/
+env/
+.vscode/
+.gradio/
+.qodo/
+.codex/
+
+# Data and model weights
+data/
+imagenette2-320/
+project_data/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Generated outputs
+results/training_logs/
+results/scans/
+svm_results/
+artifacts/paper_ieee/
+artifacts/paper_ieee/edge-profile*/
+
+# Keep lightweight result summaries and figures trackable by default.
+# If figures become too large, move them to releases or external storage.
+
+# OS files
+.DS_Store
+Thumbs.db
