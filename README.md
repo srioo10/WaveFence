@@ -1,5 +1,14 @@
 # WaveFence - Spectral Robustness Toolkit
 
+WaveFence is a research-oriented toolkit for analyzing and improving adversarial robustness in computer vision models using frequency-domain sensitivity analysis. The project focuses on developing attack-free robustness diagnostics and evaluating how spectral characteristics correlate with adversarial vulnerability in CIFAR-10 and ImageNette models.
+
+The repository includes:
+
+* spectral robustness metrics (GSE, SLI, MeanLip),
+* adversarial training/evaluation pipelines,
+* the PCSD denoising framework,
+* and RobuScan, a Gradio-based robustness analysis interface.
+
 This repository contains a research prototype for diagnosing and improving adversarial robustness in vision models using frequency-domain sensitivity analysis. The project includes:
 
 - attack-free spectral diagnostics such as GSE, SLI/MeanLip, and earlier PRI/VCI experiments;
