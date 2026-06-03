@@ -18,24 +18,6 @@ This repository contains a research prototype for diagnosing and improving adver
 - saved JSON summaries and figures for the completed experimental runs;
 - a final report in `reports/dip_combined_report.pdf`.
 
-## Repository Status
-
-This project was originally developed and executed within the Lightning AI environment. As a result, certain implementation patterns, execution flow, and syntax conventions may differ from standard standalone Python projects or local development setups.
-
-Some configuration files and runtime assumptions were designed specifically around the original Lightning AI workspace structure.
-
-Before running locally, users may need to:
-
-Update hardcoded paths in caat/config.py
-Modify environment-specific directory references
-Adjust dataset/model paths for their local system
-
-In particular, the current configuration references:
-
-/teamspace/studios/this_studio
-
-which is specific to the original Lightning AI runtime environment and should be replaced with appropriate local paths.
-
 ## Project Layout
 
 ```text
@@ -102,6 +84,25 @@ python -m experiments.e1_v2_gse_sli --n_images 200
 Saved results show that MeanLip had the strongest signal against PGD robustness in the ImageNette cross-model experiment, with Spearman |rho| = 0.788 and p = 0.035. On CIFAR-10, clean training reached 92.12% clean accuracy but 0.00% PGD accuracy, while PGD-AT reached 77.97% clean accuracy and 48.25% PGD-20 accuracy. LAT+ACL had similar robustness with lower MeanLip.
 
 The final report frames PCSD+DualDGSC against the standard blind DnCNN pixel-loss baseline, where it recovers +35.3 percentage points versus +17.7. The deeper ablation also shows that DnCNN with classifier-guided loss is a very strong fair baseline, so the most honest takeaway is that classifier-guided loss is the main driver and DGSC gives a smaller incremental gain.
+
+## Repository Status
+
+This project was originally developed and executed within the Lightning AI environment. As a result, certain implementation patterns, execution flow, and syntax conventions may differ from standard standalone Python projects or local development setups.
+
+Some configuration files and runtime assumptions were designed specifically around the original Lightning AI workspace structure.
+
+Before running locally, users may need to:
+
+Update hardcoded paths in caat/config.py
+Modify environment-specific directory references
+Adjust dataset/model paths for their local system
+
+In particular, the current configuration references:
+
+/teamspace/studios/this_studio
+
+which is specific to the original Lightning AI runtime environment and should be replaced with appropriate local paths.
+
 
 ## Limitations
 
