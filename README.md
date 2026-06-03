@@ -85,6 +85,10 @@ Saved results show that MeanLip had the strongest signal against PGD robustness 
 
 The final report frames PCSD+DualDGSC against the standard blind DnCNN pixel-loss baseline, where it recovers +35.3 percentage points versus +17.7. The deeper ablation also shows that DnCNN with classifier-guided loss is a very strong fair baseline, so the most honest takeaway is that classifier-guided loss is the main driver and DGSC gives a smaller incremental gain.
 
+## Robuscan Screen shots
+<img width="1600" height="990" alt="image" src="https://github.com/user-attachments/assets/9da2971d-33e9-4d95-addb-0c3810bda992" />
+<img width="1600" height="1199" alt="image" src="https://github.com/user-attachments/assets/df782413-8d49-49bd-8a32-599b4971b785" />
+
 ## Repository Status
 
 This project was originally developed and executed within the Lightning AI environment. As a result, certain implementation patterns, execution flow, and syntax conventions may differ from standard standalone Python projects or local development setups.
