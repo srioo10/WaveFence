@@ -1,4 +1,4 @@
-# Spectral Robustness Toolkit
+# WaveFence - Spectral Robustness Toolkit
 
 This repository contains a research prototype for diagnosing and improving adversarial robustness in vision models using frequency-domain sensitivity analysis. The project includes:
 
